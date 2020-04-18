@@ -106,6 +106,9 @@
 				},
 				1000:{
 					items: 3
+				},
+				1600:{
+					items: 4
 				}
 			}
 		});
@@ -329,7 +332,7 @@
 
   function makeTimer() {
 
-		var endTime = new Date("28 March 2020 00:00:00 GMT+02:00");			
+		var endTime = new Date("02 May 2020 00:00:00 GMT+02:00");			
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
